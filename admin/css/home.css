@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styles pour l'en-tête */
+
+header {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+/* Styles pour le contenu principal */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+main>div {
+    margin-bottom: 2em;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+main h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+/* Styles pour la navigation */
+
+.navigation {
+    margin-bottom: 2em;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation li {
+    margin: 0 1em;
+}
+
+.navigation a {
+    color: #1E90FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/* Styles pour les formulaires */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+form select {
+    font-size: 1.2em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+}
+
+
+/* Styles pour les messages d'erreur */
+
+.erreur {
+    color: #ff0000;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+.erreur.hidden {
+    display: none;
+}
+
+
+/* Styles pour les tableaux */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+
+table th {
+    background-color: #1E90FF;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+table td:first-child {
+    font-weight: bold;
+}
+
+
+/* Styles pour le pied de page */
+
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/* Media queries pour les écrans mobiles */
+
+@media only screen and (max-width: 767px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    main h2 {
+        font-size: 1.2em;
+    }
+    main h3 {
+        font-size: 1em;
+    }
+    .navigation {
+        margin-bottom: 1em;
+    }
+    .navigation a {
+        font-size: 1em;
+    }
+    table th,
+    table td {
+        font-size: 0.8em;
+    }
+    footer p {
+        font-size: 1em;
+    }
+}

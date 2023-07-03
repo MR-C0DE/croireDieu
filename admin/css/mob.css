@@ -1,0 +1,33 @@
+/* Styles pour les appareils mobiles */
+
+@media screen and (max-width: 767px) {
+    /* Styles pour l'en-tête */
+    header {
+        height: 60px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    /* Styles pour le contenu principal */
+    main {
+        min-height: calc(100vh - 160px);
+    }
+    div {
+        max-width: 100%;
+        padding: 10px;
+    }
+    /* Styles pour les champs de saisie */
+    input[type="text"],
+    input[type="password"] {
+        padding: 8px;
+    }
+    /* Styles pour le bouton de soumission */
+    .submit {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    /* Styles pour le pied de page */
+    footer {
+        height: 60px;
+    }
+}

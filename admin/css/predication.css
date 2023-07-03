@@ -1,0 +1,108 @@
+.predication-container {
+  padding: 2rem 0;
+}
+
+/* Styles pour les titres de page */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Styles pour les liens */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.form-container {
+  margin-top: 2rem;
+}
+/* Styles pour les boutons */
+button,
+input[type="button"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 7.5rem;
+}
+
+button:hover,
+input[type="button"]:hover {
+  background-color: #0062cc;
+  
+}
+
+/* Styles pour les tableaux */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  background-color: #006464;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Styles pour les formulaires */
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="url"] {
+  background-color: #ddd;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+input[type="button"] {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.error {
+  background-color: #f19f9f;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #8b0000;
+  font-weight: bold;
+  display: none;
+}
+.btn-del{
+    background-color: #8b0000;
+}
+
+.btn-del:hover{
+    background-color: #660000;
+}
